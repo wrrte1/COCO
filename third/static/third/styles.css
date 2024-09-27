@@ -1,0 +1,82 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #e0f7fa, #80deea);
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 20px 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* 반투명 배경 */
+}
+
+.navbar-brand {
+    font-size: 28px;
+    font-weight: bold;
+    color: #00796b;
+}
+
+.nav-link {
+    font-size: 18px;
+    color: #00796b;
+    margin: 0 15px; /* 간격 추가 */
+}
+
+.nav-link:hover {
+    color: #004d40; /* 호버 색상 */
+}
+
+.container {
+    max-width: 960px; /* 최대 너비 */
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #004d40;
+    margin-bottom: 20px;
+}
+
+.card {
+    border-radius: 30px; /* 둥근 카드 */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* 카드 그림자 */
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* 반투명 카드 배경 */
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* 카드 호버 효과 */
+}
+
+.btn-primary {
+    background-color: #00796b; /* 버튼 색상 */
+    border: none;
+    border-radius: 20px; /* 둥근 버튼 */
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.btn-primary:hover {
+    background-color: #004d40; /* 버튼 호버 색상 */
+}
+
+/* 반응형 디자인 */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 24px;
+    }
+
+    .nav-link {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}
